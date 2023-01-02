@@ -19,10 +19,10 @@ public class MainApp {
         Car car4 = new Car(789, "Tesla4");
         Car car5 = new Car(890, "Tesla5");
 
-        userService.add(new User("User1", "Lastname1", "user1@mail.ru"));
-        userService.add(new User("User2", "Lastname2", "user2@mail.ru"));
-        userService.add(new User("User3", "Lastname3", "user3@mail.ru"));
-        userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
+//        userService.add(new User("User1", "Lastname1", "user1@mail.ru"));
+//        userService.add(new User("User2", "Lastname2", "user2@mail.ru"));
+//        userService.add(new User("User3", "Lastname3", "user3@mail.ru"));
+//        userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
 
         userService.add(new User("User2", "Lastname2", "user2@mail.ru", car1));
         userService.add(new User("User3", "Lastname3", "user3@mail.ru", car4));
